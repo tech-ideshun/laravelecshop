@@ -1,0 +1,40 @@
+body {
+  margin-top: 5em;
+  text-align: center;
+}
+/* 
+table {
+  margin: auto;
+  background-color: #fff;
+  color: #000;
+  border-spacing: 0;
+  border-collapse: collapse;
+  border: solid 1px lightgrey;
+}
+
+th, td {
+  padding: 1em;
+  border: solid 1px lightgrey;
+}
+
+th {
+  color: #fff;
+  background-color: grey;
+}
+
+tr:hover td {
+  cursor: pointer;
+  background-color: lightgrey;
+} */
+
+.max_300px {
+  display: block;
+  width: 400px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.container {
+  margin: 2em;
+}
